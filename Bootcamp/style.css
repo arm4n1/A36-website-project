@@ -1,0 +1,175 @@
+/* ------------------------------------------ */
+/* BASIC SETUP */
+/* ------------------------------------------ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    background-color: #090808;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 35px 0px 35px;
+}
+
+.img-nav-p {
+    font-weight: 700;
+    font-size: 72px;
+    color: #FFE074;
+}
+
+ul {
+    list-style-type: none;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+li {
+    display: inline;
+}
+
+li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.bg-head {
+  /* The image used */
+  display: flex;
+  background-image: url("img/head-img.jpg");
+  background-color: tomato;
+
+  /* Full height */
+  height: 849px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-head p {
+    font-size: 96px;
+    font-weight: 800;
+    color: #E9F890;
+    text-align: center;
+}
+
+article {
+    background-color: #E5E5E5;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 89px;
+    padding-bottom: 5%;
+}
+
+.about-team {
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.about-team #text-title {
+    font-size: 51px;
+}
+
+.about-team #text-content {
+    font-size: 29px;
+}
+
+.profile {
+    display: flex;
+}
+
+.profile img {
+    width: 275px;
+    height: 370px;
+    border-radius: 137.5px;
+}
+
+.profile .text {
+    padding-top: 3%;
+    font-size: 29px;
+    margin-left: 3%;
+}
+
+.right {
+    flex-direction: row-reverse;
+}
+
+.text-right {
+    padding-top: 3%;
+    font-size: 29px;
+    margin-right: 3%;
+}
+
+#name-right {
+    font-weight: 600;
+    margin-bottom: 20px;
+    
+}
+#hoby-right {
+    font-weight: 300;
+}
+
+#name {
+    font-weight: 600;
+    margin-bottom: 20px;
+    
+}
+#hoby {
+    font-weight: 300;
+}
+
+footer {
+    background-color: #000000;
+    
+    padding: 3% 5% 5% 5%;
+}
+
+.footer-wrap {
+    width: 30%;
+}
+
+.name-team {
+    font-size: 51px;
+    color: #FFEFEF;
+    font-weight: 600;
+    margin-bottom: 5%;
+}
+
+.footer-text .title {
+    font-size: 41px;
+    font-weight: 500;
+    color: #EFFD4C;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.footer-text .content {
+    font-size: 23px;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+
+
+
+.footer-text {
+    display: flex;
+    justify-content: space-between;
+}
